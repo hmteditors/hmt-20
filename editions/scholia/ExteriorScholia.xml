@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css" href="../css/tei-scholia.css"?>
-<?xml-stylesheet type="text/css" href="../css/tei-scholia.css"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
-schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!DOCTYPE TEI PUBLIC "-//TEI P5//DTD Main Document Type//EN" "http://www.tei-c.org/release/xml/tei/custom/schema/dtd/tei_all.dtd">
-
-
-<TEI xmlns="http://www.tei-c.org/ns/1.0" >
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
         <fileDesc>
             <titleStmt>
                 <title>Venetus A Exterior Scholia</title>
-                <author>YOUR NAME HERE</author>
+                <author>Suzan Boreel</author>
+                <author>Haley Yi</author>
+                <author>Tazuko van Berkel</author>
+                <author>Ineke Sluiter</author>
+                <author>Olga Levanouik</author>
+                <author>James Garry</author>
+                <author>Mees Gelein</author>
+                <author>Olivia Monster</author>
+                <author>Chrissy Hicks</author>
+                <author>Michael Raheb</author>
             </titleStmt>
             <publicationStmt>
                 <p>Unpublished</p>
@@ -22,23 +23,136 @@ schematypens="http://purl.oclc.org/dsdl/schematron"?>
             </sourceDesc>
         </fileDesc>
     </teiHeader>
-    <text>
-        <group n="12">
-            <text n="msAext">
-                <body>
-                    <div n="1" type="scholion">
-                        <div type="lemma">
-                            <p/>
-                        </div>
-                        <div type="ref">
-                            <p></p>
-                        </div>
-                        <div type="comment">
-                            <p></p>
-                        </div>
-                    </div>
+
+        <group n="20">
+          <text  n="msAext">
+            <body>
+              <div n="3_1" type="scholion">
+              <div type="lemma">
+                  <p></p>
+              </div>
+              <div type="ref">
+                  <p>urn:cts:greekLit:tlg0012.tlg001:20.34</p>
+              </div>
+              <div type="comment">
+                  <p><persName n="urn:cite2:hmt:pers:pers47"><choice><abbr>ποσειδα</abbr><expan>ποσειδάων</expan></choice></persName></p>
+              </div>
+          </div>
+
+
+            <div n="11_1" type="scholion">
+            <div type="lemma">
+                <p></p>
+            </div>
+            <div type="ref">
+                <p>urn:cts:greekLit:tlg0012.tlg001:20.57</p>
+            </div>
+            <div type="comment">
+                <p><persName n="urn:cite2:hmt:pers:pers47"><choice><abbr>ποσειδα</abbr><expan>ποσειδάων</expan></choice></persName></p>
+            </div>
+        </div>
+        <div n="11_2" type="scholion">
+            <div type="lemma">
+                <p></p>
+            </div>
+            <div type="ref">
+                <p>urn:cts:greekLit:tlg0012.tlg001:20.59</p>
+            </div>
+            <div type="comment">
+                <p><choice><abbr>πε</abbr><expan>περι</expan></choice> σεισμοῦ</p>
+            </div>
+        </div>
+        <div n="11_3" type="scholion">
+            <div type="lemma">
+                <p></p>
+            </div>
+            <div type="ref">
+                <p>urn:cts:greekLit:tlg0012.tlg001:20.60</p>
+            </div>
+            <div type="comment">
+                <p>πόλις</p>
+            </div>
+        </div>
+        <div n="11_4" type="scholion">
+            <div type="lemma">
+                <p></p>
+            </div>
+            <div type="ref">
+                <p>urn:cts:greekLit:tlg0012.tlg001:20.63</p>
+            </div>
+            <div type="comment">
+                <p><persName n="urn:cite2:hmt:pers:pers47"><choice><abbr>ποσειδα</abbr><expan>ποσειδάων</expan></choice></persName></p>
+            </div>
+        </div>
+        <div n="11_5" type="scholion">
+            <div type="lemma">
+                <p></p>
+            </div>
+            <div type="ref">
+                <p>urn:cts:greekLit:tlg0012.tlg001:20.67</p>
+            </div>
+            <div type="comment">
+                <p><persName n="urn:cite2:hmt:pers:pers47"><choice><abbr>ποσειδα</abbr><expan>ποσειδάωνος</expan></choice></persName></p>
+            </div>
+        </div>
+        <div n="9_1" type="scholion">
+            <div type="lemma">
+                <p></p>
+            </div>
+            <div type="ref">
+                <p>urn:cts:greekLit:tlg0012.tlg001:20.125</p>
+            </div>
+            <div type="comment">
+                <p> <persName n= "urn:cite2:hmt:pers:pers47" > Ποσείδαων </persName> </p>
+            </div>
+        </div>
+        <div n="9_2" type="scholion">
+            <div type="lemma">
+                <p></p>
+            </div>
+            <div type="ref">
+                <p>urn:cts:greekLit:tlg0012.tlg001:20.138</p>
+            </div>
+            <div type="comment">
+                <p>ἄρχηισι</p>
+            </div>
+        </div>
+        <div n="9_3" type="scholion">
+            <div type="lemma">
+                <p></p>
+            </div>
+            <div type="ref">
+                <p>urn:cts:greekLit:tlg0012.tlg001:20.149</p>
+            </div>
+            <div type="comment">
+                <p><persName n="urn:cite2:hmt:pers:pers47">Ποσειδάων</persName></p>
+            </div>
+        </div>
+        <div n="9_4" type="scholion">
+            <div type="lemma">
+                <p></p>
+            </div>
+            <div type="ref">
+                <p>urn:cts:greekLit:tlg0012.tlg001:20.164</p>
+            </div>
+            <div type="comment">
+                <p>δης δ’ ἐτε</p>
+            </div>
+        </div>
+        <div n="9_5" type="scholion">
+            <div type="lemma">
+                <p></p>
+            </div>
+            <div type="ref">
+                <p>urn:cts:greekLit:tlg0012.tlg001:20.165</p>
+            </div>
+            <div type="comment">
+                <p>σίντης</p>
+            </div>
+        </div>
+
                 </body>
             </text>
         </group>
-    </text>
+
 </TEI>
